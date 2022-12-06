@@ -45,6 +45,21 @@ ul li a {
 .burger {
   display: none;
 }
+
+.link {
+  display: flex;
+  width: 25%;
+  list-style-type: none;
+  justify-content: space-between;
+}
+@media screen and (min-width: 1024px) {
+  .link {
+    display: flex;
+    width: 30%;
+    list-style-type: none;
+    justify-content: space-between;
+  }
+}
 @media screen and (max-width: 768px) {
   body {
     position: relative;
@@ -55,15 +70,15 @@ ul li a {
     justify-content: space-between;
     position: absolute;
     width: 100%;
-    padding: 25px;
+    padding: 5px;
     position: fixed;
-    align-content: space-around;
+    align-content: space-between;
     z-index: 9999;
   }
 
   .links {
     left: 0;
-    top: 8vh;
+    top: 7vh;
     position: absolute;
     position: fixed;
     display: flex;
