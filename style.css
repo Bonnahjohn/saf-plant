@@ -2,7 +2,7 @@
   box-sizing: border-box;
   padding: 0px;
   margin: 0px;
-  font-family: sans-serif;
+  font-family: serif, Helvetica, sans-serif;
   overflow-x: hidden;
 }
 /* mmmmmmmmmmmm navBar for large screens mmmmmmmmmmmm  */
