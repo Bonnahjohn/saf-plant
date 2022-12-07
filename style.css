@@ -7,10 +7,15 @@
 }
 /* mmmmmmmmmmmm navBar for large screens mmmmmmmmmmmm  */
 .navs {
-  height: 64px;
-  background-color: green;
+  height: 60px;
+  background-color: rgb(16, 79, 16);
   align-items: center;
   font-size: 14px;
+}
+.navs.change {
+  background: rgba(154, 200, 154, 0.2);
+  backdrop-filter: blur(5px);
+  transition: all 1s ease-out;
 }
 
 /* mmmmmmmmmmmm navBar for small screens mmmmmmmmmmmm  */
@@ -23,6 +28,7 @@ nav {
   height: 7vh;
   width: 100%;
   z-index: 9999;
+  font-size: 14px;
 }
 .links {
   display: flex;
@@ -88,9 +94,11 @@ ul li a {
     align-items: center;
     height: 95vh;
     width: 100%;
+
+    background: rgba(154, 200, 154, 0.1);
+    backdrop-filter: blur(10px);
     transform: translateX(-100%);
     transition: all 0.4s ease-out;
-    background-color: black;
   }
   .navLinks {
     transform: translateX(0%);
