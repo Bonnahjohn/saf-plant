@@ -3,6 +3,7 @@
   padding: 0px;
   margin: 0px;
   font-family: sans-serif;
+  overflow-x: hidden;
 }
 /* mmmmmmmmmmmm navBar for large screens mmmmmmmmmmmm  */
 .navs {
@@ -108,4 +109,9 @@ ul li a {
   .toggle .line3 {
     transform: translate(0, -11px) rotate(45deg);
   }
+}
+
+/* footer styling */
+footer {
+  font-size: 14px;
 }
