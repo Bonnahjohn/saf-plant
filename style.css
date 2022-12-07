@@ -81,6 +81,7 @@ ul li a {
     position: fixed;
     align-content: space-between;
     z-index: 9999;
+    align-items: center;
   }
 
   .links {
