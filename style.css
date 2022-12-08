@@ -7,15 +7,15 @@
 }
 /* mmmmmmmmmmmm navBar for large screens mmmmmmmmmmmm  */
 .navs {
-  height: 60px;
+  height: 7vh;
   background-color: #0b483e;
   align-items: center;
   font-size: 14px;
+  transition: all 3s ease-out;
 }
 .navs.change {
   background: rgba(154, 200, 154, 0.2);
   backdrop-filter: blur(5px);
-  transition: all 1s ease-out;
 }
 
 /* mmmmmmmmmmmm navBar for small screens mmmmmmmmmmmm  */
