@@ -15,7 +15,7 @@
 }
 .navs.change {
   background: rgba(154, 200, 154, 0.2);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(15px);
 }
 
 /* mmmmmmmmmmmm navBar for small screens mmmmmmmmmmmm  */
@@ -108,3 +108,47 @@ ul li a {
 footer {
   font-size: 14px;
 }
+
+/* subscribe */
+
+label {
+  position: relative;
+}
+
+.tex {
+  border: 1px solid white;
+  width: 550px;
+  height: 40px;
+  padding: 0 15px;
+  background-color: #0b4740;
+  color: white;
+}
+.field {
+  position: absolute;
+  border: none;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  padding: 0 15px;
+}
+/* 
+label {
+  position: relative;
+}
+
+.tex {
+  border: 1px solid white;
+  width: 300px;
+  height: 40px;
+  padding: 0 15px;
+    background-color: #0b4740;
+    color: white;
+}
+.field {
+  position: absolute;
+  border: none;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  padding: 0 15px;
+} */
