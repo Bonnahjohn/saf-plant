@@ -90,7 +90,7 @@ ul li a {
     height: 93vh;
     width: 100%;
 
-    background: rgba(154, 200, 154, 0.6);
+    background: rgba(154, 200, 154, 0.9);
     backdrop-filter: blur(10px);
     transform: translateX(-100%);
     transition: all 0.4s ease-out;
@@ -101,6 +101,9 @@ ul li a {
   /*mmmmmmmmmmmmmmmmm burger animation for menu shows mmmmmmmmmmmmmmmm*/
   .fa-bars {
     display: block;
+  }
+  .shift {
+    padding-top: 20px;
   }
 }
 
